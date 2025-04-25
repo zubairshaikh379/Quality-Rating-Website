@@ -1,0 +1,37 @@
+{
+    "name": "quality-rating-website",
+    "version": "1.0.0",
+    "description": "Cloud-based quality rating prediction web application using Next.js, Firebase, Python ML model (XGBoost).",
+    "main": "next.config.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "firebase": "latest",
+    "axios": "latest",
+    "recharts": "latest",
+    "framer-motion": "latest",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "latest",
+    "file-saver": "latest"
+    },
+    "devDependencies": {
+      "typescript": "latest",
+      "eslint": "latest",
+      "eslint-config-next": "latest",
+      "tailwindcss": "latest",
+      "postcss": "latest",
+      "autoprefixer": "latest"
+    },
+    "engines": {
+      "node": ">=18.x"
+    },
+    "license": "MIT"
+  }
+  
