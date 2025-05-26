@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 import { NextConfig } from 'next';
 import { Configuration, RuleSetRule } from 'webpack';
 
